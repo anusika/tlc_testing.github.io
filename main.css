@@ -1,0 +1,18 @@
+body {
+width: 100%;
+background-color: #ff00ff;
+margin: 0;
+}
+
+.tuesday {
+  font-family: 'Hanalei Fill', cursive;
+}
+
+.colour-different {
+  background-color: rgb(122, 35, 35);
+}
+
+img {
+  width: 150px;
+  border: 10px dotted red;
+}
