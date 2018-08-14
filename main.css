@@ -10,9 +10,45 @@ margin: 0;
 
 .colour-different {
   background-color: rgb(122, 35, 35);
+  position: sticky;
+  top: 0;
 }
 
 img {
   width: 150px;
   border: 10px dotted red;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+table {
+  margin:auto;
+  border-collapse: collapse;
+}
+
+table, tr, td, th {
+  border: 5px dashed blue;
+}
+
+td, th, tr{
+  padding: 20px;
+  text-align: center;
+}
+
+tr:hover {
+background-color: green;
+color: blueviolet;
+}
+
+.overlay{
+  background-image: url("cat.jpeg");
+  background-size:contain;
+  text-align: center;
+  color: green;
+  font-size: 50px;
 }
