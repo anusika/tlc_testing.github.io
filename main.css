@@ -52,3 +52,25 @@ color: blueviolet;
   color: green;
   font-size: 50px;
 }
+
+
+.red {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 50%; 
+  position: absolute;
+  margin-left: 20px;
+}
+
+.green{
+  position: relative;
+  left: 50%;
+  top: 50%;
+}
+
+
+.curved{
+  border: 10px solid green;
+  border-radius: 10px;
+}
